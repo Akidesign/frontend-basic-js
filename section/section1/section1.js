@@ -1,21 +1,12 @@
-q1 = "ここに回答を入力";
+q1 = "//";
 
-q2 = "ここに回答を入力";
+q2 = "var";
 
-q3 = `
+q3 = 'let country = "Japan"country = "America"';
+q4 = 'const japan = {id: 1,capital: "東京"}japan.lang = "日本語"';
 
-ここに回答（コード）を入力
+q5 = [2, 5, 6];
 
-`;
-
-q4 = `
-
-ここに回答（コード）を入力
-
-`;
-
-q5 = [];
-
-q6 = "ここに回答を入力";
+q6 = "キャメルケース";
 
 module.exports = { q1, q2, q3, q4, q5, q6 };

@@ -36,5 +36,8 @@
   "prettier": {
     "singleQuote": false,
     "tabWidth": 2
+  },
+  "devDependencies": {
+    "yarn": "^1.22.21"
   }
 }
