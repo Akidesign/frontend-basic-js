@@ -1,13 +1,13 @@
-const userIdList = (jsDatas) => {
+const userIdList = (jsonDatas) => {
   const returnUserId = [];
 
   const allUserIds = jsonDatas.map((jsonData) => {
-    return jsonData.UserId;
+    return jsonData.userId;
   });
 
-  for (UserId of allUserIds) {
+  for (userId of allUserIds) {
     const getUserId = returnUserId.findIndex((eachReturnUserId) => {
-      return eachReturnUserId === UserId;
+      return eachReturnUserId === userId;
     });
 
     if (getUserId === -1) {
